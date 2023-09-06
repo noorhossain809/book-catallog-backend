@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\successes\\.e2de5ce1c43d68d8d61e516acf7d8372377c63f6-audit.json",
+    "files": [
+        {
+            "date": 1693920756977,
+            "name": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\successes\\phu-2023-05-09-19-success.log",
+            "hash": "9ead8eaf594b078328620aa9e9fc49bba1c626c6c450f540e8753aed75556141"
+        },
+        {
+            "date": 1693957995103,
+            "name": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\successes\\phu-2023-06-09-05-success.log",
+            "hash": "09d06adda2da9ba8840fd9c2870c94ab724cd2527adb1dcbd45c9bcf53b363b9"
+        },
+        {
+            "date": 1693959430707,
+            "name": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\successes\\phu-2023-06-09-06-success.log",
+            "hash": "0ee36a71d0cc8d5f5db6a1ddd433db7c1c52dee20e1e42679318b5435a7b3579"
+        },
+        {
+            "date": 1693962365065,
+            "name": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\successes\\phu-2023-06-09-07-success.log",
+            "hash": "54916218053ff5eaa6b37b0c14510095418eb11682245407d80bf8e495baa084"
+        }
+    ],
+    "hashType": "sha256"
+}

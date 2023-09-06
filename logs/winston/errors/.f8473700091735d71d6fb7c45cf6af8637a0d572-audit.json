@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\errors\\.f8473700091735d71d6fb7c45cf6af8637a0d572-audit.json",
+    "files": [
+        {
+            "date": 1693920756987,
+            "name": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\errors\\phu-2023-05-09-19-error.log",
+            "hash": "48c1387306ec7ea0f0b93bede69c4384e906e55fff45e40d0be15c0e3494dc16"
+        },
+        {
+            "date": 1693957995124,
+            "name": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\errors\\phu-2023-06-09-05-error.log",
+            "hash": "f68285ca8c4e1432c46f7f908ba44c998435870b7a0dbb14f91faa3bd92fd843"
+        },
+        {
+            "date": 1693959430734,
+            "name": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\errors\\phu-2023-06-09-06-error.log",
+            "hash": "ce67c48307d6fac6bd3d8831e783a53b03874081ad4d99fefdb5dedb871855ec"
+        },
+        {
+            "date": 1693962365079,
+            "name": "C:\\web-development\\Next-Level\\book-catelog-backend\\logs\\winston\\errors\\phu-2023-06-09-07-error.log",
+            "hash": "405f5a760e956e2cdd0c728b6a80fa19ea152a689199f1930323c282604a8e62"
+        }
+    ],
+    "hashType": "sha256"
+}
