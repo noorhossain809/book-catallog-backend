@@ -2,7 +2,7 @@ import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiError';
 import prisma from '../../../shared/prisma';
 
-const createOrder = async (customerId: string, data) => {
+const createOrder = async (customerId: string, data: any) => {
   const customerInfo = await prisma.user.findFirst({
     where: {
       id: customerId

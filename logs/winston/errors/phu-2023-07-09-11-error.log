@@ -43,3 +43,93 @@ Invalid `prisma.book.findMany()` invocation:
 }
 
 Unknown argument `contains`. Available options are listed in green.
+Thu Sep 07 2023 11:3:43 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            title: {
+              contains: "mah",
+              mode: "insensitive"
+            }
+          },
+          {
+            author: {
+              contains: "mah",
+              mode: "insensitive"
+            }
+          },
+          {
+            genre: {
+              contains: "mah",
+              mode: "insensitive"
+            }
+          },
+          {
+            price: {
+              contains: "mah",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  include: {
+    category: true
+  },
+  skip: 0,
+  take: 10,
+  orderBy: {}
+}
+
+Unknown argument `contains`. Available options are listed in green.
+Thu Sep 07 2023 11:3:45 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            title: {
+              contains: "mah",
+              mode: "insensitive"
+            }
+          },
+          {
+            author: {
+              contains: "mah",
+              mode: "insensitive"
+            }
+          },
+          {
+            genre: {
+              contains: "mah",
+              mode: "insensitive"
+            }
+          },
+          {
+            price: {
+              contains: "mah",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  include: {
+    category: true
+  },
+  skip: 0,
+  take: 10,
+  orderBy: {}
+}
+
+Unknown argument `contains`. Available options are listed in green.
