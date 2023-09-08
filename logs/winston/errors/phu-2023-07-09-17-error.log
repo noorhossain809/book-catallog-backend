@@ -1,0 +1,60 @@
+Thu Sep 07 2023 17:50:48 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  include: {
+    category: true
+  },
+  where: {
+    AND: [
+      {
+        AND: [
+          {
+            category: {
+              equals: "cdd5329d-d720-424f-a945-619d36a620e3"
+            }
+          }
+        ]
+      }
+    ],
+    price: {
+      lte: undefined,
+      gte: undefined
+    }
+  },
+  skip: 0,
+  take: 10,
+  orderBy: {}
+}
+
+Unknown argument `equals`. Available options are listed in green.
+Thu Sep 07 2023 17:51:10 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  include: {
+    category: true
+  },
+  where: {
+    AND: [
+      {
+        AND: [
+          {
+            category: {
+              equals: "cdd5329d-d720-424f-a945-619d36a620e3"
+            }
+          }
+        ]
+      }
+    ],
+    price: {
+      lte: undefined,
+      gte: undefined
+    }
+  },
+  skip: 0,
+  take: 10,
+  orderBy: {}
+}
+
+Unknown argument `equals`. Available options are listed in green.

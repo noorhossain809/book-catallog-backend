@@ -1,0 +1,89 @@
+Thu Sep 07 2023 21:11:24 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.order.create()` invocation:
+
+{
+  data: {
+    orderedBooks: [
+      {
+        bookId: "97bb18d9-5e0c-4eff-ba88-8c0fd0377c4c",
+        quantity: 3
+      },
+      {
+        bookId: "a06a0594-b477-4bf7-8bed-a4e657daa083",
+        quantity: 2
+      }
+    ],
+    user: {
+      customerId: "5f0ec2bd-9292-4ca3-bae9-02c38c4bfeec",
+      ~~~~~~~~~~
+?     create?: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+?     connectOrCreate?: UserCreateOrConnectWithoutOrdersInput,
+?     connect?: UserWhereUniqueInput
+    }
+  }
+}
+
+Unknown argument `customerId`. Available options are listed in green.
+Thu Sep 07 2023 21:12:22 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.order.create()` invocation:
+
+{
+  data: {
+    orderedBooks: [
+      {
+        bookId: "97bb18d9-5e0c-4eff-ba88-8c0fd0377c4c",
+        quantity: 3
+      },
+      {
+        bookId: "a06a0594-b477-4bf7-8bed-a4e657daa083",
+        quantity: 2
+      }
+    ],
+    user: {
+      id: "5f0ec2bd-9292-4ca3-bae9-02c38c4bfeec",
+      ~~
+?     create?: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+?     connectOrCreate?: UserCreateOrConnectWithoutOrdersInput,
+?     connect?: UserWhereUniqueInput
+    }
+  }
+}
+
+Unknown argument `id`. Available options are listed in green.
+Thu Sep 07 2023 21:13:36 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.order.create()` invocation:
+
+{
+  data: {
+    orderedBooks: [
+      {
+        bookId: "97bb18d9-5e0c-4eff-ba88-8c0fd0377c4c",
+        quantity: 3
+      },
+      {
+        bookId: "a06a0594-b477-4bf7-8bed-a4e657daa083",
+        quantity: 2
+      }
+    ],
+    user: {
+      id: "5f0ec2bd-9292-4ca3-bae9-02c38c4bfeec",
+      ~~
+?     create?: UserCreateWithoutOrdersInput | UserUncheckedCreateWithoutOrdersInput,
+?     connectOrCreate?: UserCreateOrConnectWithoutOrdersInput,
+?     connect?: UserWhereUniqueInput
+    }
+  }
+}
+
+Unknown argument `id`. Available options are listed in green.
+Thu Sep 07 2023 21:26:16 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:34:37 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:34:51 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:36:1 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:36:21 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:37:1 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:37:39 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:38:23 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:39:8 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Forbidden
+Thu Sep 07 2023 21:41:53 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ Customer Not Found
+Thu Sep 07 2023 21:44:6 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized

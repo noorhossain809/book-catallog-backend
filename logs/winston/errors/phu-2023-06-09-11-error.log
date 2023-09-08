@@ -1,0 +1,21 @@
+Wed Sep 06 2023 11:1:1 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Wed Sep 06 2023 11:3:54 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "rahim",
+    email: "rahim@example.com",
+    role: "custommer",
+          ~~~~~~~~~~~
+    contactNo: "1234567890",
+    address: "ctg, Bangladesh",
+    profileImg: "customer.jpg",
+    password: "$2b$12$DE8KBC5T8JaXtka0d.075OhrYNbCqgfHmy9B2O3SMq7d0ymeTn0E6"
+  }
+}
+
+Invalid value for argument `role`. Expected UserRole.
+Wed Sep 06 2023 11:19:34 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Wed Sep 06 2023 11:35:19 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized
+Wed Sep 06 2023 11:36:26 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ You are not authorized

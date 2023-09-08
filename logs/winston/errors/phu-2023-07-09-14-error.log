@@ -1,0 +1,109 @@
+Thu Sep 07 2023 14:12:22 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        AND: [
+          {
+            category: {
+              equals: "programming"
+            }
+          }
+        ]
+      }
+    ],
+    price: {
+      lte: undefined,
+      gte: undefined
+    }
+  },
+  include: {
+    category: true
+  },
+  skip: 0,
+  take: 10,
+  orderBy: {}
+}
+
+Unknown argument `equals`. Available options are listed in green.
+Thu Sep 07 2023 14:14:34 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  where: {
+    AND: [
+      {
+        OR: [
+          {
+            title: {
+              contains: "Softwere",
+              mode: "insensitive"
+            }
+          },
+          {
+            author: {
+              contains: "Softwere",
+              mode: "insensitive"
+            }
+          },
+          {
+            genre: {
+              contains: "Softwere",
+              mode: "insensitive"
+            }
+          },
+          {
+            category: {
+              contains: "Softwere",
+              mode: "insensitive"
+            }
+          }
+        ]
+      }
+    ],
+    price: {
+      lte: undefined,
+      gte: undefined
+    }
+  },
+  include: {
+    category: true
+  },
+  skip: 0,
+  take: 10,
+  orderBy: {}
+}
+
+Unknown argument `contains`. Available options are listed in green.
+Thu Sep 07 2023 14:19:9 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.book.findMany()` invocation:
+
+{
+  include: {
+    category: true
+  },
+  where: {
+    AND: [
+      {
+        AND: [
+          {
+            category: {
+              equals: "cdd5329d-d720-424f-a945-619d36a620e3"
+            }
+          }
+        ]
+      }
+    ],
+    price: {
+      lte: undefined,
+      gte: undefined
+    }
+  },
+  skip: 0,
+  take: 10,
+  orderBy: {}
+}
+
+Unknown argument `equals`. Available options are listed in green.

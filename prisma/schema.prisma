@@ -34,15 +34,14 @@ model Category {
 }
 
 model Book {
-  id               String            @id @default(uuid())
-  title            String
-  author           String
-  price            Int
-  genre            String
-  publicationDate  String
-  categoryId       String
-  category         Category          @relation(fields: [categoryId], references: [id])
-  ratingAndReviews RatingAndReview[]
+  id              String   @id @default(uuid())
+  title           String
+  author          String
+  price           Int
+  genre           String
+  publicationDate String
+  categoryId      String
+  category        Category @relation(fields: [categoryId], references: [id])
 
   @@map("books")
 }
@@ -54,7 +53,6 @@ model RatingAndReview {
   userId String
   user   User   @relation(fields: [userId], references: [id])
   bookId String
-  book   Book   @relation(fields: [bookId], references: [id])
 
   @@map("reviews_and_ratings")
 }
@@ -63,7 +61,7 @@ model Order {
   id           String      @id @default(uuid())
   userId       String
   user         User        @relation(fields: [userId], references: [id])
-  orderedBooks String
+  orderedBooks Json
   status       OrderStatus @default(pending)
   createdAt    DateTime    @default(now())
   updatedAt    DateTime    @updatedAt()
