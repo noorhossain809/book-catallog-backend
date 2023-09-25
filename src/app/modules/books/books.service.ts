@@ -12,7 +12,10 @@ import { IBooksFilterRequest } from './books.interface';
 
 const insertIntoDB = async (data: Book) => {
   const result = await prisma.book.create({
-    data
+    data,
+    include: {
+      category: true
+    }
   });
   return result;
 };

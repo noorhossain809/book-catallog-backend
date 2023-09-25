@@ -1,4 +1,3 @@
-import { User } from '@prisma/client';
 import { Request, Response } from 'express';
 import httpStatus from 'http-status';
 import catchAsync from '../../../shared/catchAsync';
@@ -8,7 +7,7 @@ import { AuthService } from './auth.service';
 const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
   const result = await AuthService.insertIntoDB(req.body);
 
-  sendResponse<User>(res, {
+  sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'User created successfully',
@@ -19,11 +18,11 @@ const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
 const login = catchAsync(async (req: Request, res: Response) => {
   const result = await AuthService.login(req.body);
 
-  sendResponse(res, {
+  res.send({
     statusCode: httpStatus.OK,
     success: true,
-    message: 'User Log in successfully',
-    data: result
+    message: 'User signin successfully!',
+    token: result
   });
 });
 

@@ -10,13 +10,22 @@ import { IUserLogin } from './auth.interface';
 
 const saltRounds = 12;
 
-const insertIntoDB = async (payload: User): Promise<User> => {
+const insertIntoDB = async (payload: User) => {
   const { password, ...data } = payload;
   const hashPassword = await bcrypt.hash(password, saltRounds);
   const result = await prisma.user.create({
     data: {
       ...data,
       password: hashPassword
+    },
+    select: {
+      id: true,
+      name: true,
+      email: true,
+      role: true,
+      contactNo: true,
+      address: true,
+      profileImg: true
     }
   });
 
