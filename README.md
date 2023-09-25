@@ -7,29 +7,30 @@ customer_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjMjI5NDQ1Yy
 Application Routes:
 
 User
-▪ api/v1/auth/signup (POST)
-▪ api/v1/users/28067a59-caa7-4a57-85d6-9ce9dbf4b121 (Single GET)
-▪ api/v1/users (GET)
-▪ api/v1/users/28067a59-caa7-4a57-85d6-9ce9dbf4b121 (PATCH)
-▪ api/v1/users/28067a59-caa7-4a57-85d6-9ce9dbf4b121 (DELETE)
-▪ api/v1/profile (GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/auth/signup (POST)
+◾ https://book-catellog-backend.vercel.app/api/v1/auth/signin (POST)
+◾ https://book-catellog-backend.vercel.app/api/v1/users (GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/users/080bc93d-f518-4165-8e45-627302ba89f3 (Single GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/users/080bc93d-f518-4165-8e45-627302ba89f3 (PATCH)
+◾ https://book-catellog-backend.vercel.app/api/v1/users/080bc93d-f518-4165-8e45-627302ba89f3 (DELETE)
+◾ https://book-catellog-backend.vercel.app/api/v1/profile (GET)
 
 Category
-api/v1/categories/create-category (POST)
-api/v1/categories (GET)
-api/v1/categories/eabd19a1-3f18-4f1c-8620-a0b497a12475 (Single GET) Include an id that is saved in your database
-api/v1/categories/eabd19a1-3f18-4f1c-8620-a0b497a12475 (PATCH)
-api/v1/categories/eabd19a1-3f18-4f1c-8620-a0b497a12475 (DELETE) Include an id that is saved in your database
+◾ https://book-catellog-backend.vercel.app/api/v1/categories/create-category (POST)
+◾ https://book-catellog-backend.vercel.app/api/v1/categories (GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/categories/ac4c9b90-ff01-49de-8580-81101566d9fb (Single GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/categories/ac4c9b90-ff01-49de-8580-81101566d9fb (PATCH)
+◾ https://book-catellog-backend.vercel.app/api/v1/categories/ac4c9b90-ff01-49de-8580-81101566d9fb (DELETE)
 
 Books
-api/v1/books/create-book (POST)
-api/v1/books (GET)
-api/v1/books/eabd19a1-3f18-4f1c-8620-a0b497a12475/category (GET)
-api/v1/books/01c1a87a-7d78-4aa9-97e2-b064779e762e (GET)
-api/v1/books/01c1a87a-7d78-4aa9-97e2-b064779e762e (PATCH)
-api/v1/books/01c1a87a-7d78-4aa9-97e2-b064779e762e (DELETE)
+◾ https://book-catellog-backend.vercel.app/api/v1/books/create-book (POST)
+◾ https://book-catellog-backend.vercel.app/api/v1/books (GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/books/ac4c9b90-ff01-49de-8580-81101566d9fb/category (GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/books/046cfa73-6e06-461b-ab52-97f2596098b5 (GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/books/046cfa73-6e06-461b-ab52-97f2596098b5 (PATCH)
+◾ https://book-catellog-backend.vercel.app/api/v1/books/046cfa73-6e06-461b-ab52-97f2596098b5 (DELETE)
 
 Orders
-api/v1/orders/create-order (POST)
-api/v1/orders (GET)
-api/v1/orders/489678e8-1f8d-43b6-9562-06b14b647ab8 (GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/orders/create-order (POST)
+◾ https://book-catellog-backend.vercel.app/api/v1/orders (GET)
+◾ https://book-catellog-backend.vercel.app/api/v1/orders/848f7e89-8ea8-483a-9862-3133549c5ae6 (GET)
